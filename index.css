@@ -1,0 +1,141 @@
+body{
+    background-color:#000;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+.bio{
+    padding:32px 96px 0px 0px;
+    display:flex;
+    align-items:end;
+}
+.introduction {
+    color: #fff;
+    flex: none;
+    width: 60%;
+}
+h3{
+    padding: 12px 40px 12px 96px;
+    background-color:#5D5D5D;
+    border-bottom:4px solid #ffe599;
+    margin-bottom:24px;
+}
+p{  
+    padding: 0px 40px 0px 96px;
+    text-indent: 30px;
+}
+.photo{
+    flex:none;
+    width:40%;
+    height:fit-content;
+    border-radius:16px;
+}
+.doc{
+    background-color: #5D5D5D;
+    padding:16px;
+    margin-bottom:32px;
+    color:#fff;
+    text-align:center;
+}
+.button{
+    margin:32px 0px;
+    background-color:#ffe599;
+    color:#000;
+}
+.doclist{
+    margin:0px 44px;
+    padding-block-end:16px;
+    display:flex;
+    justify-content:center;
+}
+li{
+    flex:none;
+    width:20%;
+    padding-bottom:16px;
+    list-style-position:inside;
+    text-align:center;
+}
+.btn{
+    flex:none;
+    background-color: #efefef;
+    color:#000;
+    border:1px solid #000;
+    border-radius:8px;
+    padding:8px 24px;
+    font-size:16px;
+    text-decoration:none;
+}
+.btn:active{
+    background-color:#000;
+    color:#fff;
+    transform:scale(0.98);
+}
+.btn:hover{
+    background-color:#5b5b5b;
+    color:#fff;
+}
+#board{
+    margin:56px 0px;
+}
+#ref{
+    color:#fff;
+    text-align:center;
+}
+.section{
+    margin: 32px 40px;
+    display:flex;
+    justify-content:center;
+}
+.card{
+    flex:none;
+    width:40%;
+    border-radius:8px;
+    background-color:#f1f1f1;
+    padding:16px 24px 32px 24px;
+    margin:0px 24px;
+}
+.card_c {
+    flex: none;
+    width: 87%;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    padding: 16px 24px 32px 24px;
+    margin: 16px 24px;
+}
+.reflection{
+    margin-bottom:32px;
+}
+.c_btn{
+    border-radius:100px;
+    padding:8px 16px;
+    color:#fff;
+    background-color:#444;
+    text-decoration:none;
+}
+.c_btn:hover {
+    border-radius: 100px;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    
+}
+.c_btn:active {
+    border-radius: 100px;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #000;
+    transform: scale(0.98);
+}
+.icon_arrow{
+    vertical-align:middle;
+    width:24px;
+    height:24px;
+    fill:#fff;
+}
+.footer{
+    padding:16px;
+    border-bottom:4px solid #ffe599;
+    background-color:#5d5d5d;
+    color:#fff;
+    text-align:center;
+}
