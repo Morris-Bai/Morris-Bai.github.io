@@ -13,15 +13,21 @@ body{
     flex: none;
     width: 60%;
 }
-h3{
+h1{
+    color: #fff;
+}
+.title{
     padding: 12px 40px 12px 96px;
     background-color:#5D5D5D;
+    color:#fff;
     border-bottom:4px solid #ffe599;
     margin-bottom:24px;
 }
+h2{
+    padding: 0px 0px 0px 96px;
+}
 p{  
     padding: 0px 40px 0px 96px;
-    text-indent: 30px;
 }
 .photo{
     flex:none;
