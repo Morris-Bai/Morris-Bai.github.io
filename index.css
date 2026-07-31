@@ -148,3 +148,29 @@ li{
     color:#fff;
     text-align:center;
 }
+/* RWD */
+@media screen and (max-width:960px){
+    .bio, .section, .doclist{
+        flex-direction:column !important;
+        align-items:center !important;
+    }
+    .introduction, .photo, .card, .card_c, li{
+        width:90% !important;
+        margin:10px auto !important;
+    }
+    .title, p, .bioTitle{
+        padding-left:20px !important;
+        padding-right:20px !important;
+    }
+}
+@media screen and (max-width:600px){
+    .title h1{
+        font-size:1.5rem;
+    }
+    .doclist{
+        display:block !important;
+    }
+    li{
+        margin:10px 0 !important;
+    }
+}
